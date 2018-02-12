@@ -1,0 +1,125 @@
+body {
+    background-image: url("../img/circles-light.png");
+}
+
+.homepage {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation-bar {
+    align-items: center;
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    display: flex;
+    height: 75px;
+    justify-content: space-between;
+}
+
+.name {
+    align-items: center;
+    background: #4aaaa5;
+    display: flex;
+    height: 73px;
+    margin-left: 220px;
+}
+
+.name h1 {
+    display: block;
+    font-size: 1.67em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 25px;
+}
+
+.navigation-links {
+    background: pink;
+    
+    align-items: center;
+    color: #777777;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-around;
+    margin-right: 220px;
+    width: 270px;
+}
+
+.pipe {
+    color: #dddddd;
+}
+
+.page-content {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-content h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 25px;
+}
+
+.page-content hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-style: inset;
+    border: 1px solid #dddddd;
+}
+
+.about-me {
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    margin: 20px 0 20px 220px;
+    width: 650px;
+}
+
+.sidebar {
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    margin: 20px 220px 20px 0;
+    width: 270px;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.contact-icon {
+    display: block;
+    height: 67px;
+    width: 67px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.large-icon {
+    padding: 3.5px;
+}
+
+.footer {
+    background: #666666;
+    border-top: 5px solid #4aaaa5;
+    color: #cccccc;
+    height: 60px;
+}
