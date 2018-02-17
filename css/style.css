@@ -163,7 +163,7 @@
     bottom: 20px;
 }
 
-.portfolio-project:last-child {
+.portfolio-project:last-child:nth-child(odd) {
     margin-left: 23px;
     margin-right: auto;
 }
